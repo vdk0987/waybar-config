@@ -44,6 +44,7 @@
 
 "hyprland/workspaces": {
   "format": "<sub>{icon}</sub>\n{windows}",
+
   "format-window-separator": "\n",
   "window-rewrite-default": "",
   "window-rewrite": {
@@ -107,7 +108,7 @@
         // }
     },
     "clock": {
-        // "timezone": "America/New_York",
+        "timezone": "Asia/Kolkota",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
