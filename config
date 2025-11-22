@@ -25,16 +25,13 @@
     ],
     // Modules configuration
      "hyprland/workspaces": {
-         "disable-scroll": true,
-         "all-outputs": true,
-         "warp-on-scroll": false,
-         "format": "{name}: {icon}",
-         "format-icons": {
-             "urgent": "",
-             "active": "",
-             "default": ""
-         }
-     },
+	"format": "{name}",
+	
+       "persistent-workspaces": {
+             "*": 5, // 5 workspaces by default on every monitor
+             "HDMI-A-1": 3 // but only three on HDMI-A-1
+       }
+    },
     
     "clock": {
         "timezone": "Asia/Kolkata",
